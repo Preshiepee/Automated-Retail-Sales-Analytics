@@ -285,17 +285,17 @@ The analysis showed the following correlation coefficients:
 
 | Variables | Correlation |
 |---|---:|
-| Price Per Unit and Quantity | -0.447 |
-| Price Per Unit and Total Spent | 0.472 |
-| Quantity and Total Spent | 0.441 |
+| Price Per Unit and Quantity | -0.474|
+| Price Per Unit and Total Spent | 0.480|
+| Quantity and Total Spent | 0.403 |
 
-The negative correlation between Price Per Unit and Quantity indicates that, within this dataset, higher unit prices were generally associated with lower quantities.
+The correlation between Price Per Unit and Quantity is approximately -0.474, indicating a moderate negative linear relationship in the validated dataset.
 
-The positive correlations between Price Per Unit, Quantity, and Total Spent indicate that increases in these variables tend to be associated with increases in transaction value.
+The correlation between Price Per Unit and Total Spent is approximately 0.480, indicating a moderate positive linear relationship.
 
-Correlation measures association and does not establish causation.
+The correlation between Quantity and Total Spent is approximately 0.403, indicating a moderate positive linear relationship.
 
-It is also important to note that Total Spent is calculated from Price Per Unit and Quantity, so correlations involving Total Spent are partly influenced by this mathematical relationship.
+Correlation measures association rather than causation. Since Total Spent is calculated from Price Per Unit and Quantity, its relationships with these variables are partly mathematical.
 
 ## Regression Analysis
 
@@ -414,7 +414,7 @@ Automated_Retail_Sales_Analytics/
 │   ├── Sales_ETL_Cleaned.csv
 │   └── Sales_ETL_Review.csv
 │
-├── notebooks/
+├── notebook/
 │   └── Automated_Retail_Sales_Analytics.ipynb
 │
 ├── sql/
@@ -425,8 +425,8 @@ Automated_Retail_Sales_Analytics/
 │
 ├── reports/
 │   ├── Sales_KPI_Report.csv
-│   ├── Regression_Summary.csv
-│   └── Model_Comparison.csv
+│   ├── regression_summary.csv
+│   └── model_comparison.csv
 │
 └── README.md
 
@@ -453,6 +453,7 @@ This project demonstrates practical skills in:
 
 ## Project Status
 
+
 **Completed**
 
 The project includes:
@@ -461,7 +462,7 @@ The project includes:
 - SQL Server database
 - SQL reporting views
 - Exploratory data analysis
-- Correlation analysis
+- Correlation analysis 
 - Regression analysis
 - Power BI interactive dashboard
 - Project documentation
