@@ -1,0 +1,2 @@
+Model,Target,Predictor,MAE,R2
+Linear Regression,Quantity,Price Per Unit,0.842457050892094,0.38260657724377667

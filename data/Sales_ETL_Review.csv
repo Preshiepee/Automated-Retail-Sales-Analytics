@@ -1,0 +1,10 @@
+transaction_id,customer_id,category,item,price_per_unit,quantity,total_spent,payment_method,location,transaction_date,calculated_total,total_mismatch,validation_status,missing_data_flag,invalid_quantity_flag,total_mismatch_flag
+TXN0007,CUST1002,Beauty,Body Lotion,,3.0,30000.0,Card,Lagos,2026-01-20,,False,Review - Missing Data,True,False,False
+TXN0011,CUST1013,Home,Bedsheet,12500.0,,12500.0,Card,Uyo,2026-03-24,,False,Review - Missing Data,True,False,False
+TXN0013,CUST1018,Beauty,Perfume,10000.0,-2.0,10000.0,Card,Lagos,2026-05-26,-20000.0,True,Review - Total Mismatch,False,True,True
+TXN0015,CUST1022,Beauty,Body Lotion,2500.0,1.0,,Card,Lagos,2026-02-12,2500.0,False,Review - Missing Data,True,False,False
+TXN0018,CUST1024,Food,Rice,,4.0,40000.0,Card,Abuja,2026-01-03,,False,Review - Missing Data,True,False,False
+TXN0027,CUST1009,Clothing,T-Shirt,,3.0,7500.0,Cash,Uyo,2026-03-04,,False,Review - Missing Data,True,False,False
+TXN0029,CUST1024,Electronics,Bluetooth Speaker,15000.0,,45000.0,Cash,Abuja,2026-05-02,,False,Review - Missing Data,True,False,False
+TXN0034,CUST1010,Electronics,USB Cable,15000.0,1.0,,Cash,Port Harcourt,2026-04-29,15000.0,False,Review - Missing Data,True,False,False
+TXN0038,CUST1019,Home,Pillow,7500.0,4.0,999999.0,Cash,Uyo,2026-03-07,30000.0,True,Review - Total Mismatch,False,False,True
